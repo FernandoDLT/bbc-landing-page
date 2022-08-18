@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: lightblue;
+}
+
+header {
+    height: 75px;
+    background: black;
+    color: white;
+}
+
+nav *{
+    float: left;
+    width: 10%;
+    color: white;
+    display: block;
+}
+
+form {
+    padding-top: 20px;
+}
+
+nav ul {
+    width: 60%;
+}
+
+nav form input {
+    width: 100%;
+}
+
+main + section > section {
+    width: 33.3333%;
+    float: left;
+}
+
+main > section {
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+main section + section section {
+    width: 50%;
+    height: 250px;
+    float: left;
+    border: 1px solid black;
+}
